@@ -8,8 +8,8 @@
         Ecrubit
     </author>
     <content src="index.html" />
-    <gap:plugin name="cordova-plugin-whitelist" spec="1" /> 
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <plugin name="cordova-plugin-whitelist" spec="1" /> 
+    <plugin name="org.apache.cordova.inappbrowser" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
