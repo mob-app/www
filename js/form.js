@@ -11,7 +11,7 @@ function check(mythis)
       var subject = "Mobile App: Suggestion Box";
       		//console.log(contact);
   		$.ajax({
-  			url: "form.php?query=mail",
+  			url: "http://gicebmedia.com/sahana/thewjc/form.php?query=mail",
   			type:'POST',
   			data:{name: name, email:email, contact:contact, message:message,table:table,subject:subject},
   			success: function(result){
