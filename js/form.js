@@ -21,6 +21,6 @@ function check(mythis)
   				alert('Mail sending failed');
   				
   			}
-  		})
+  		}) 
   	}
      	
