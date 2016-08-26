@@ -9,7 +9,7 @@
 		$message = $_POST['message'];
 		$table = $_POST['table'];
 		$subject = $_POST['subject'];
-		$con = mysqli_connect('localhost','root','','mobapp');
+		$con = mysqli_connect('http://gicebmedia.com/sahana/www/','root','','mobapp');
 
 			$ins = "INSERT INTO `mobapp` . `$table` (`name`,`email`,`contact`,`message`) values('".$name."','".$email."','".$contact."','".$message."') ";
 			
