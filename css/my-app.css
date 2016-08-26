@@ -64,3 +64,16 @@ i.tabbar-demo-icon-4 {
 
  /*   rgb(49, 155, 245);
 }*/
+
+
+.page{
+ background: #9dcbec;
+}
+
+.button.button-round {
+    border-radius: 27px;
+    height: 33px;
+    margin-bottom: 12px;
+    margin-left: 93px;
+    width: 78px;
+}
