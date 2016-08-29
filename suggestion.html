@@ -1,0 +1,106 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>Suggestion Box</title>
+  </head>
+  <body>
+
+  <div class="views">
+  <div class="view view-main" data-page="home">
+  <div class="pages">
+  <div class="page navbar-fixed" data-page="home">
+  <div class="navbar">
+  <div class="navbar-inner">
+      <div class="left sliding"><a href="#" class="back link"><img src="images/back.png" style="width:21px;"></a></div>
+      <div class="center sliding">Suggestion Box</div>
+      <div class="right"><a href="#" class="open-panel link icon-only"><img src="images/menu.png" style="width:20px"></a></div>
+    </div>
+  </div>
+  <div class="page-content">
+  <div class="content-block-title"> Please fill the form below to send your suggestions/feedback. </div>
+
+
+  <form id="my-form2" class="list-block store-data" action="javascript:void(0)" method="post">
+    <ul>
+           <li>
+  <div class="item-content">
+  <div class="item-media"><i class="icon icon-form-name"></i></div>
+  <div class="item-inner">
+  <div class="item-title label">Name</div>
+  <div class="item-input">
+  <input type="text" placeholder="Name" id="name" required="" name="name">
+  </div>
+  </div>
+  </div>
+  </li>
+
+  <li>
+  <div class="item-content">
+  <div class="item-media"><i class="icon icon-form-email"></i></div>
+  <div class="item-inner">
+  <div class="item-title label">E-mail</div>
+  <div class="item-input">
+  <input type="email" placeholder="E-mail" id="email"  required="" name="email">
+  </div>
+  </div>
+  </div>
+  </li>
+
+  <li>
+  <div class="item-content">
+  <div class="item-media"><i class="icon icon-form-tel"></i></div>
+  <div class="item-inner">
+  <div class="item-title label">Contact</div>
+  <div class="item-input">
+  <input type="number" placeholder="Contact Number" id="contact" required="" name="contact">
+  </div>
+  </div>
+  </div>
+  </li>
+
+  <li>
+              <div class="item-content">
+                <div class="item-media"><i class="icon icon-form-comment" style="margin-top:-52px"></i></div>
+                <div class="item-inner"> 
+                  <div class="item-title label" style="margin-top:-56px">Suggestion</div>
+                  <div class="item-input">
+                    <textarea id="message" name="message" value="Suggestion" placeholder="Your suggestion" rows="4"></textarea>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+  <li>
+  <div class="item-content">
+  <div class="item-inner">
+  <!-- <div class="item-title label">E-mail</div> -->
+  <div class="item-input">
+  <input type="submit" onClick="check(this);" data-form="sugg" name="submit now!" class="button active" value="submit now!">
+  </div>
+  </div>
+  </div>
+  </li>
+
+
+
+
+  </ul>
+
+
+  </form>
+
+
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+  </body>
+  </html>
+
